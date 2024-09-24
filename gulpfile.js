@@ -9,6 +9,7 @@ function styles(){
 }
 
 
+
 function images(){
     return gulp.src('./src/images/**/*')
     .pipe(imagemin())
